@@ -7,9 +7,11 @@ img{
 
 h1{
 	font-size: 30px;
-	color: cadetblue;
+	color: ghostwhite;
 	text-align: center;
 	text-underline-position: auto;
+
+
 }
 
 h2{
@@ -46,6 +48,7 @@ nav {
 	font-weight: bold;
 	font-style: italic;
 	padding: 0 2rem;
+	text-shadow: whitesmoke; 2px 2px;
 }
 
 nav a {
