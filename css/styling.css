@@ -64,7 +64,7 @@ nav a:hover{
  /*This is the yellow background for the whole page. \/   */
 .hero {
 	background: #fdcc04;
-	height: 95vh;
+	height: 150vh;
 }
 
 .hero-container {
@@ -148,4 +148,5 @@ a {
     background-color: #fdcc04;
     height: 50px;
 }
+
 
