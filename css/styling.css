@@ -39,7 +39,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0rem calc((100vw - 1250px) / 2);
+	padding: 0rem calc((100vw - 1600px) / 2);
 }
 
 .logo{
@@ -61,9 +61,10 @@ nav a {
 nav a:hover{
 	color: #fff;
 }
-
+ /*This is the yellow background for the whole page. \/   */
 .hero {
 	background: #fdcc04;
+	height: 95vh;
 }
 
 .hero-container {
@@ -73,6 +74,8 @@ nav a:hover{
 	padding: 0rem calc((100vw - 1250px) / 2);
 
 }
+
+
 
 .column-left {
 	display: flex;
@@ -127,16 +130,22 @@ button:hover {
 	}
 }
 
+/*
+html, body 
+{ 
+ height: 100%;
+ overflow: hidden
+}
+*/
 
+/*Making a link not look like a clickable link, thats ugly*/
+a {
+  color: white;
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
+.footer_container{
+    background-color: #fdcc04;
+    height: 50px;
+}
 
